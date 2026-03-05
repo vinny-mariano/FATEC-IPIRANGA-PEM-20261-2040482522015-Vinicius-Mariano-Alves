@@ -104,7 +104,7 @@
 
             imprimirRecibo(novoPedido);
 
-            printf("\nConfirar pedido? ( 1 - Sim / 0 - Alterar ): ");
+            printf("\nConfirmar pedido? ( 1 - Sim / 0 - Alterar ): ");
             scanf("%d", &confirmar);
         
         }while (confirmar == 0);
