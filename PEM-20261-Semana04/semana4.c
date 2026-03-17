@@ -52,7 +52,7 @@ int main() {
         simboloAtual = (jogadas % 2 == 0) ? jogador1 : jogador2;
 
         // Desenha visualmente o tabuleiro na tela
-        printf("\nTabuleito Atual:\n");
+        printf("\nTabuleiro Atual:\n");
         for (int i = 0; i < 3; i++) {
             printf(" %c | %c | %c \n", tabuleiro[i][0], tabuleiro[i][1], tabuleiro[i][2]);
             if (i < 2) printf("---|---|---\n"); // Desenha a divisória horizontal
