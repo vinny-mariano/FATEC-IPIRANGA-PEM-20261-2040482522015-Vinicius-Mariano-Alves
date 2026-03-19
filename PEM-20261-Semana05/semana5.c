@@ -1,4 +1,5 @@
-/*-------------------------------------------------------------------------------------------* * - Nome: Vinícius Mariano Alves                                                            *
+/*-------------------------------------------------------------------------------------------* 
+ * - Nome: Vinícius Mariano Alves                                                            *
  * - Fatec Ipiranga - Ads Vespertino                                                         *
  * - Atividade PEM - Semana 5 - Dia 14/03/2026                                               *
  * - Objetivo: Desenvolva um código (linguagem C) que, a partir do tabuleiro montado, simule *
