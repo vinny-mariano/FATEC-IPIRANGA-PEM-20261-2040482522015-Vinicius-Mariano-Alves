@@ -2,8 +2,8 @@
  * - Nome: Vinícius Mariano Alves                                                            *
  * - Fatec Ipiranga - Ads Vespertino                                                         *
  * - Atividade PEM - Semana 3 - Dia 27/02/2026                                               *
- * - Objetivo: Produção de um algoritmo em linguagem de programação estruturada 
- * (C ou similar), CRUD                                                            *
+ * - Objetivo: Produção de um algoritmo em linguagem de programação estruturada              *
+ * (C ou similar), CRUD                                                                      *
  *-------------------------------------------------------------------------------------------*/
 
 #include <stdio.h>
