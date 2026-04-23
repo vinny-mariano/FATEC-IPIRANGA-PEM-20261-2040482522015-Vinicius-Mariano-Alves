@@ -1,3 +1,10 @@
+/*-------------------------------------------------------------------------------------------* 
+ * - Nome: Vinícius Mariano Alves                                                            *
+ * - Fatec Ipiranga - Ads Vespertino                                                         *
+ * - Atividade PEM - Semana 8 - Dia 23/04/2026                                               *
+ * - Objetivo: Produção de um programa para processamento de carga                           *
+ *-------------------------------------------------------------------------------------------*/
+
 #include<stdio.h>
 
 void processarCarga(float *p, int tam){
