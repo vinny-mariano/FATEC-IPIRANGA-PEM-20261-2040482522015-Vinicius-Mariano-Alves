@@ -3,7 +3,7 @@
 * Disciplina: Programaçao Estruturada e Modular             *
 * Prof. Veríssimo                                           *
 *-----------------------------------------------------------*
-* Objetivo do Programa: Refatoração com Ponteiros           *
+* Objetivo do Programa: Refatoração utilizando iteratividade*
 * Data - 25/04/2026                                         *
 * Autor: Vinícius Mariano Alves                             *
 *----------------------------------------------------------*/
