@@ -5,7 +5,7 @@
  * - Disciplina: Programação Estruturada e Modular (PEM)                            *
  * - Atividade: Semana 14 - Exercício 08                                            *
  * - Objetivo: Manipular um vetor de tamanho N fixado por diretiva de compilação,   *
- * extraindo estatísticas de extremos, paridade, inversão e busca linear.           *
+ * extraindo estatísticas de extremos, paridade, inversão e busca linear.         *
  *----------------------------------------------------------------------------------*/
 
 #include <stdio.h>
@@ -80,4 +80,10 @@ int main() {
     printf("]\n");
 
     if (encontrado != -1) {
-        printf("Busca Linear: O valor %
+        printf("Busca Linear: O valor %d foi encontrado no indice [%d].\n", chave_busca, encontrado);
+    } else {
+        printf("Busca Linear: O valor %d nao existe no vetor.\n", chave_busca);
+    }
+
+    return 0;
+}
