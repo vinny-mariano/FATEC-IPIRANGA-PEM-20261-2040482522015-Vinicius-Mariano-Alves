@@ -1,3 +1,13 @@
+/*----------------------------------------------------------------------------------*
+ * - Nome: Vinícius Mariano Alves                                                   *
+ * - Fatec Ipiranga - ADS Vespertino                                                *
+ * - Professor: Veríssimo                                                           *
+ * - Disciplina: Programação Estruturada e Modular (PEM)                            *
+ * - Atividade: Semana 14 - Exercício 01                                            *
+ * - Objetivo: Calcular a média ponderada de 3 notas com pesos, formatar a saída    *
+ * e exibir o tamanho dos tipos primitivos na memória RAM.                          *
+ *----------------------------------------------------------------------------------*/
+
 #include <stdio.h>
 
 int main(){
