@@ -1,3 +1,13 @@
+/*----------------------------------------------------------------------------------*
+ * - Nome: Vinícius Mariano Alves                                                   *
+ * - Fatec Ipiranga - ADS Vespertino                                                *
+ * - Professor: Veríssimo                                                           *
+ * - Disciplina: Programação Estruturada e Modular (PEM)                            *
+ * - Atividade: Semana 14 - Exercício 02                                            *
+ * - Objetivo: Converter centímetros inseridos pelo usuário para metros,            *
+ * quilômetros e milhas, aplicando validação robusta contra estouro de memória.     *
+ *----------------------------------------------------------------------------------*/
+
 #include <stdio.h>
 
 int main(){
