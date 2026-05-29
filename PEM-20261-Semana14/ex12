@@ -1,0 +1,88 @@
+/*----------------------------------------------------------------------------------*
+ * - Nome: Vinícius Mariano Alves                                                   *
+ * - Fatec Ipiranga - ADS Vespertino                                                *
+ * - Professor: Veríssimo                                                           *
+ * - Disciplina: Programação Estruturada e Modular (PEM)                            *
+ * - Atividade: Semana 14 - Exercício 12                                            *
+ * - Objetivo: Implementar e demonstrar funções que utilizam passagem por ponteiro  *
+ * para modificação de variáveis e vetores in-place (troca, minMax, normalização).  *
+ *----------------------------------------------------------------------------------*/
+
+#include <stdio.h>
+
+void troca(int *a, int *b) {
+    int aux = *a;
+    *a = *b;
+    *b = aux;
+}
+
+void minMax(int *v, int n, int *min, int *max) {
+    int i;
+    *min = *(v + 0);
+    *max = *(v + 0);
+
+    for (i = 1; i < n; i++) {
+        if (*(v + i) < *min) {
+            *min = *(v + i);
+        }
+        if (*(v + i) > *max) {
+            *max = *(v + i);
+        }
+    }
+}
+
+void normalizaVetor(float *v, int n) {
+    int i;
+    float maior = *(v + 0);
+
+    for (i = 1; i < n; i++) {
+        if (*(v + i) > maior) {
+            maior = *(v + i);
+        }
+    }
+
+    if (maior > 0) {
+        for (i = 0; i < n; i++) {
+            *(v + i) = *(v + i) / maior;
+        }
+    }
+}
+
+int main() {
+    int x = 10, y = 20;
+    int vetor_int[5] = {14, 5, 22, 8, 19};
+    int menor, maior;
+    float vetor_float[4] = {10.0f, 50.0f, 100.0f, 25.0f};
+    int i;
+
+    printf("=== TESTE DA FUNCAO: troca ===\n");
+    printf("Antes : x = %d, y = %d\n", x, y);
+    troca(&x, &y);
+    printf("Depois: x = %d, y = %d\n", x, y);
+
+    printf("\n=== TESTE DA FUNCAO: minMax ===\n");
+    printf("Vetor: [ ");
+    for (i = 0; i < 5; i++) {
+        printf("%d ", vetor_int[i]);
+    }
+    printf("]\n");
+    minMax(vetor_int, 5, &menor, &maior);
+    printf("Resultado -> Menor: %d | Maior: %d\n", menor, maior);
+
+    printf("\n=== TESTE DA FUNCAO: normalizaVetor ===\n");
+    printf("Antes : [ ");
+    for (i = 0; i < 4; i++) {
+        printf("%.1f ", vetor_float[i]);
+    }
+    printf("]\n");
+    
+    normalizaVetor(vetor_float, 4);
+
+    printf("Depois: [ ");
+    for (i = 0; i < 4; i++) {
+        printf("%.2f ", vetor_float[i]);
+    }
+    printf("]\n");
+
+    return 0;
+}
